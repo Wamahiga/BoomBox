@@ -1,2 +1,2 @@
 # BoomBox
-Music application using firebase.
+audio player developeed using html,css and vanilla javascript
