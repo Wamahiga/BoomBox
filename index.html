@@ -17,6 +17,7 @@
                 <h4><span></span><i class="bi bi-music-note-beamed"></i>Last listening</h4>
                 <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
             </div>
+            <!------------------------------ left bottom section-------------------------------------- -->
             <div class="menu_song">
                 <li class="songItem">
                     <span>01</span>
@@ -122,37 +123,52 @@
                     </h5>
                     <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
                 </li>
-                <li class="songItem">
-                    <span>01</span>
-                    <img src="./asset/allan-walker.jpg" alt="">
-                    <h5>On My Way <br>
-                        <div class="subtitle">Allan Walker</div>
-                    </h5>
-                    <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
-                </li>
-                <li class="songItem">
-                    <span>01</span>
-                    <img src="./asset/allan-walker.jpg" alt="">
-                    <h5>On My Way <br>
-                        <div class="subtitle">Allan Walker</div>
-                    </h5>
-                    <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
-                </li>
-                <li class="songItem">
-                    <span>01</span>
-                    <img src="./asset/allan-walker.jpg" alt="">
-                    <h5>On My Way <br>
-                        <div class="subtitle">Allan Walker</div>
-                    </h5>
-                    <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
-                </li>
-            </div>
-            
+            </div>    
         </div>
         <div class="song_side"></div>
+<!-------------------------------- bottom play section -------------------------------->
+<div class="master_play"> 
+    <div class="wave">
+        <div class="wave1"> </div>
+        <div class="wave1"> </div>
+        <div class="wave1"> </div>
+    </div>
+    <div class="image">
+        <img src="./asset/on my way.jpg" id ="masterPlayArt" />
+    </div>
+    
+    <h5 id="title">
+        on my Way
+        <div class="subtitle">Allan walker</div>
+        
+    </h5>
+    
+    <div class="icon">
+        <i class="bi shuffle bi-music-note-beamed" id="back">next</i>
+        <i class="bi bi-skip-start-fill" id="back"></i>
+        <i class="bi bi-play-circle-fill" id="masterPlay"></i>
+        <i class="bi bi-skip-end-fill" id="next"></i>
+        <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+    </div>
+    <audio id="currentMusic" src=""> 
+        
+    </audio>
+    <span id="currentStart">0:00</span>
+    <div class="bar">
+        <input type="range" id="seek" min="0" value="0" max="100"> 
+        <div class="bar2" id="bar2"></div>
+        <div class="dot"></div>
+    </div>
+    <span id="currentEnd">0:00</span>
 
-        <div class="master_play"></div>
-        <div class="wave"></div>
+    <div class="vol">
+        <i class="bi bi-volume-down" id="vol_icon"></i>
+        <input type="range" id="volume" min="0" value="100" max="100">
+        <div class="vol_bar"></div>
+        <div class="dot" id="vol_dot"></div>
+    </div>
+      
+            
     </header>
 
     <script src = "app.js"></script>
