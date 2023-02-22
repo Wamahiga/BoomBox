@@ -1,0 +1,25 @@
+{
+  "name": "vanilla-js-audio-player",
+  "version": "1.0.0",
+  "description": "A custom Full Stack, Vanilla Javascript Music Player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotaid/vanilla-js-audio-player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotaid/vanilla-js-audio-player/issues"
+  },
+  "homepage": "https://github.com/kotaid/vanilla-js-audio-player#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
